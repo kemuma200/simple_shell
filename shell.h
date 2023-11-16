@@ -93,7 +93,7 @@ int histcount;
 } info_t;
 
 define INFO_INIT\
-{NULL, NUKK, NUKK,0, 0, 0, 0, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, 0,
+{NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, 0,
 0, 0}
 
 /**
@@ -169,7 +169,7 @@ int _exit(info_t *);
 int _changedir(info_t *);
 int _help(info_t *);
 
-/* toem_buitin1.c */
+/* toem_builtin2.c */
 int _history(info_t *);
 int _alias(info_t *);
 
